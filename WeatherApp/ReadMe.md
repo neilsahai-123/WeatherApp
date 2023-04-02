@@ -16,4 +16,13 @@ Learning Objective
 
 - Lottie Animation
 - Fetching Co-Ordinates from address
+- Swift Package manager
+- Date and Time Formatter
+- 
+
+API We are going to use to fetch Weather Information: 
+
+https://openweathermap.org/api/one-call-3
+
+
 
