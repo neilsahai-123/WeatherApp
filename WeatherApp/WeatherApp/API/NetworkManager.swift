@@ -27,8 +27,9 @@ class NetworkManager<T: Codable> {
             }
             
             do {
-                let json = try JSONDecoder().decode(T.self, from: data)
-                completion(.success(json))
+                let model = try JSONDecoder().decode(T.self, from: data)
+                completion(.success(model))
+                print("\n\n***** Success got response for URL : \(url) Response = \n \(model) ********\n\n")
             } catch let error {
                 print(error.localizedDescription)
                 completion(.failure(.decodingError(error: error.localizedDescription)))

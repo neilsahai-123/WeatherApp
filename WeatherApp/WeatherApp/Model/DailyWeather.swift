@@ -8,9 +8,9 @@
 import Foundation
 
 struct DailyWeather: Codable, Identifiable{
-    var dt: Int
-    var temp: Temprature
-    var weather: [WeatherDetails]
+    var dt: Int?
+    var temp: Temprature?
+    var weather: [WeatherDetails]?
     
     enum CodingKey: String{
         case dt
