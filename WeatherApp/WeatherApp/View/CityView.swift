@@ -13,6 +13,7 @@ struct CityView: View {
         VStack {
             CityNameView(city: cityVM.city, date: cityVM.date)
                 .shadow(radius: 0)
+            TodayWeatherView(cityVM: cityVM)
         }
     }
 }
