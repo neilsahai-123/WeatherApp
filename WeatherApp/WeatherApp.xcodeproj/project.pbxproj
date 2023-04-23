@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB533DB229F4FDDF00C49874 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */; };
 		ABC0A50929D559C00021690E /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0A50829D559C00021690E /* WeatherApp.swift */; };
 		ABC0A50B29D559C00021690E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0A50A29D559C00021690E /* ContentView.swift */; };
 		ABC0A50D29D559C10021690E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC0A50C29D559C10021690E /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		ABC0A50529D559C00021690E /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC0A50829D559C00021690E /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		ABC0A50A29D559C00021690E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				ABC122D929E26A660094CF08 /* CityView.swift */,
 				ABC122E129EBA3100094CF08 /* TodayWeatherView.swift */,
 				ABC122E329EBA3360094CF08 /* LottieView.swift */,
+				AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB533DB229F4FDDF00C49874 /* HourlyWeatherView.swift in Sources */,
 				ABC122D429E268240094CF08 /* Temprature.swift in Sources */,
 				ABC122D229E2681C0094CF08 /* DailyWeather.swift in Sources */,
 				ABC122CE29E2680C0094CF08 /* Weather.swift in Sources */,

@@ -14,6 +14,7 @@ struct CityView: View {
             CityNameView(city: cityVM.city, date: cityVM.date)
                 .shadow(radius: 0)
             TodayWeatherView(cityVM: cityVM)
+            HourlyWeatherView(cityVM: cityVM)
         }
     }
 }
