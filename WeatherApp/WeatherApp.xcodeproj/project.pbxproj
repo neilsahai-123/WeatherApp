@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB533DB229F4FDDF00C49874 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */; };
+		AB533DB429F4FF5F00C49874 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB533DB329F4FF5F00C49874 /* DailyWeatherView.swift */; };
 		ABC0A50929D559C00021690E /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0A50829D559C00021690E /* WeatherApp.swift */; };
 		ABC0A50B29D559C00021690E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0A50A29D559C00021690E /* ContentView.swift */; };
 		ABC0A50D29D559C10021690E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC0A50C29D559C10021690E /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
+		AB533DB329F4FF5F00C49874 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		ABC0A50529D559C00021690E /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC0A50829D559C00021690E /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		ABC0A50A29D559C00021690E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				ABC122E129EBA3100094CF08 /* TodayWeatherView.swift */,
 				ABC122E329EBA3360094CF08 /* LottieView.swift */,
 				AB533DB129F4FDDF00C49874 /* HourlyWeatherView.swift */,
+				AB533DB329F4FF5F00C49874 /* DailyWeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB533DB229F4FDDF00C49874 /* HourlyWeatherView.swift in Sources */,
+				AB533DB429F4FF5F00C49874 /* DailyWeatherView.swift in Sources */,
 				ABC122D429E268240094CF08 /* Temprature.swift in Sources */,
 				ABC122D229E2681C0094CF08 /* DailyWeather.swift in Sources */,
 				ABC122CE29E2680C0094CF08 /* Weather.swift in Sources */,
