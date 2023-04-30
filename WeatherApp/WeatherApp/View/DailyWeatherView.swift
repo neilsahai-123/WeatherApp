@@ -28,7 +28,25 @@ struct DailyWeatherView: View {
     
     private func dailyView(weather: DailyWeather) -> some View {
         HStack {
-            Text("Weather Details")
+            Text(cityVM.getDayFor(timestamp: weather.dt ?? 0).uppercased())
+                .frame(width: 50)
+            Spacer()
+            if let max = weather.temp?.max,
+               let min = weather.temp?.min {
+                Text("\(max) | \(cityVM.getTimeFor(timestamp: min)) ℉")
+                    .frame(width: 150)
+                Spacer()
+            }
+            
+            
+            if let weather = weather.weather,
+               weather.count > 0,
+               let icon = weather.first?.icon {
+                cityVM.getWeatherIconFor(icon: icon)
+            } else {
+                cityVM.getWeatherIconFor(icon: "sun.max.fill")
+            }
+            
         }.foregroundColor(.white)
             .padding(.horizontal, 40)
             .padding(.vertical, 50)
