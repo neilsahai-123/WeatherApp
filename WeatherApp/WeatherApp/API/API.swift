@@ -12,6 +12,6 @@ struct API {
     static let baseUrlString = "https://api.openweathermap.org/data/3.0/"
     
     static func getURLFor(lat: Double, long: Double) -> String {
-        return "\(baseUrlString)onecall?lat=\(lat)&lon=\(long)&exclude=minutely&appid=\(key)&units=imperial"
+        return "\(baseUrlString)onecall?lat=\(lat)&lon=\(long)&exclude=minutely&appid=\(key)&units=metric"
     }
 }
